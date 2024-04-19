@@ -55,8 +55,9 @@ public class Pc implements Comparable<Pc> {
 
 
     @Override
-    public int compareTo(Pc o) {
-        return 0;
+    public int compareTo(Pc other) {
+        return Integer.compare(this.id, other.id);
     }
 }
+
 
