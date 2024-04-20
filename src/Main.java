@@ -85,7 +85,12 @@ public class Main {
         System.out.print("Size of list:");
         System.out.println(List2.size());
         System.out.println("-------------------------------------------------------------------");
-
+if (pc1.equalsSpecifications(pc2)) {
+            System.out.println("PC1 and PC2 have the same specifications.");
+        } else {
+            System.out.println("PC1 and PC2 have different specifications.");
+        }
+        System.out.println("-------------------------------------------------------------------");
 
 
 
