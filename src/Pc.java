@@ -58,6 +58,9 @@ public class Pc implements Comparable<Pc> {
     public int compareTo(Pc other) {
         return Integer.compare(this.id, other.id);
     }
+        public boolean equalsSpecifications(Pc other) {
+        return this.compareTo(other) == 0;
+    }
 }
 
 
